@@ -1,0 +1,141 @@
+{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Tambahkan spasi antara body dan footer dengan padding-bottom */
+    body {
+        padding-bottom: 0px;
+        /* Ubah nilai sesuai dengan tinggi footer */
+    }
+
+
+    body ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 5px;
+        /* Tambahkan properti untuk menghilangkan margin */
+        display: flex;
+        justify-content: right;
+        padding-right: 3%;
+        align-items: center;
+        font-size: 80%;
+        /* Tambahkan properti untuk mengatur menu berada di tengah vertikal footer */
+        height: 100%;
+        /* Agar menu tetap berada di tengah vertikal footer */
+
+    }
+
+    body li {
+        font-size: small;
+        margin: 3%;
+        color: rgb(255, 255, 255);
+        /* Warna teks menu putih */
+    }
+
+    body li a {
+        text-decoration: none;
+        color: white;
+        /* Warna teks tombol putih */
+
+        /* Warna background tombol hijau */
+        /* padding: 5px 20px; */
+        /* border-radius: 5px; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* height: 100%; */
+        /* Tambahkan properti untuk mengatur tinggi tombol agar tidak terpotong */
+    }
+
+    body .credit {
+        position: absolute;
+        justify-content: right;
+        color: white;
+        font-size: 50%;
+        margin-left: 1.5%;
+
+
+    }
+
+    body .credit a {
+        color: rgb(120, 138, 216);
+    }
+
+
+    footer {
+        background-color: rgba(19, 16, 16, 0.863);
+        /* Warna background footer hitam */
+        bottom: 0;
+        /* Ubah dari 20px menjadi 0 */
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0 3rem;
+        height: 40px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        /* Tambahkan tinggi footer */
+        align-items: center;
+        /* Tambahkan properti untuk mengatur tombol berada di tengah vertikal footer */
+        z-index: 998;
+        /* Tambahkan z-index untuk mengatur tumpukan elemen, pastikan nilainya lebih tinggi dari elemen halaman */
+    }
+
+    footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        /* Tambahkan properti untuk menghilangkan margin */
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        /* Tambahkan properti untuk mengatur menu berada di tengah vertikal footer */
+        height: 100%;
+        /* Agar menu tetap berada di tengah vertikal footer */
+
+    }
+
+    footer li {
+        font-size: small;
+        margin: 3%;
+        color: rgb(255, 255, 255);
+        /* Warna teks menu putih */
+    }
+
+    footer li a {
+        text-decoration: none;
+        color: white;
+        /* Warna teks tombol putih */
+
+        /* Warna background tombol hijau */
+        /* padding: 5px 20px; */
+        /* border-radius: 5px; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* height: 100%; */
+        /* Tambahkan properti untuk mengatur tinggi tombol agar tidak terpotong */
+    }
+
+    footer .credit {
+        position: absolute;
+        justify-content: right;
+        color: white;
+        font-size: 43%;
+        margin-left: 1.5%;
+        margin-top: -10px;
+
+    }
+
+    footer .credit a {
+        color: rgb(120, 138, 216);
+    }
+
+
+
+
+
+    /* Gaya untuk ikon */
+    .icon {
+        margin-right: 5px;
+    }
