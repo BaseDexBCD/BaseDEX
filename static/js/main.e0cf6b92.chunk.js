@@ -5183,7 +5183,7 @@
                     ]
                   }),
                   Object(r.jsxs)(zi, {
-                    href: "#",
+                    href: "https://basecoindex.gitbook.io/basedex-whitepaper/",
                     children: [
                       Object(r.jsx)(qe, {
                         mr: "4px"
@@ -21015,7 +21015,7 @@
 
       function fv() {
         var e = Object(s.a)([
-          "\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  padding: 32px 16px;\n  min-height: calc(100vh - 152px);\n  align-items: center;\n  flex: 1;\n  overflow-y: auto;\n  overflow-x: hidden;\n  z-index: 1;\n\n  background-image: url('/static/media/bg.bfd323f2.png');\n  background-repeat: no-repeat;\n  background-position: top;\n  background-size: contain;\n"
+          "\n  display: flex;\n  flex-direction: column;\n  width: 100%;\n  padding: 32px 16px;\n  min-height: calc(100vh - 152px);\n  align-items: center;\n  flex: 1;\n  overflow-y: auto;\n  overflow-x: hidden;\n  z-index: 1;\n\n  background-image: url('/static/media/static/media/bg.bfd323f2.png');\n  background-repeat: no-repeat;\n  background-position: top;\n  background-size: contain;\n"
         ]);
         return (
           (fv = function () {

@@ -9,59 +9,6 @@
         /* Ubah nilai sesuai dengan tinggi footer */
     }
 
-
-    body ul {
-        list-style: none;
-        padding: 0;
-        margin-left: 5px;
-        /* Tambahkan properti untuk menghilangkan margin */
-        display: flex;
-        justify-content: right;
-        padding-right: 3%;
-        align-items: center;
-        font-size: 80%;
-        /* Tambahkan properti untuk mengatur menu berada di tengah vertikal footer */
-        height: 100%;
-        /* Agar menu tetap berada di tengah vertikal footer */
-
-    }
-
-    body li {
-        font-size: small;
-        margin: 3%;
-        color: rgb(255, 255, 255);
-        /* Warna teks menu putih */
-    }
-
-    body li a {
-        text-decoration: none;
-        color: white;
-        /* Warna teks tombol putih */
-
-        /* Warna background tombol hijau */
-        /* padding: 5px 20px; */
-        /* border-radius: 5px; */
-        /* display: flex; */
-        /* align-items: center; */
-        /* height: 100%; */
-        /* Tambahkan properti untuk mengatur tinggi tombol agar tidak terpotong */
-    }
-
-    body .credit {
-        position: absolute;
-        justify-content: right;
-        color: white;
-        font-size: 50%;
-        margin-left: 1.5%;
-
-
-    }
-
-    body .credit a {
-        color: rgb(120, 138, 216);
-    }
-
-
     footer {
         background-color: rgba(19, 16, 16, 0.863);
         /* Warna background footer hitam */
